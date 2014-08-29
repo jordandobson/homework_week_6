@@ -14,7 +14,7 @@ The other issue I had was remembering to setup the table with File's Owner. That
 
 Lastly, I think adding animations was super simple but I think I could do a bit better with more time to control the responsiveness of the UI in regards to how it updates and is presented when it's making requests for data.
 
-*What resources did you find helpful?*
+**What resources did you find helpful?**
 
 I used Marty's text exploration examples to help me with the JSON formatting, coloring and styling.
 
@@ -25,6 +25,8 @@ I used some code examples in my past projects as well to handle toolbars and tab
 For Pretty Print formatting the JSON text I found a great example on stackOverflow: http://stackoverflow.com/a/9020923/3920924
 
 
-*One well-formed question or observation about the app, technologies used, or related topics.*
+**One well-formed question or observation about the app, technologies used, or related topics.**
 
-I made a few observations above but I question if how I am loading images is appropriate or if they should be set to a queue and how I might cancel that queue if another request is made.
+I made a few observations above but one question I have is if my method loading images is appropriate or if they should be set to a queue and how I might cancel that queue if another request is made.
+
+Also, in my _JRDMainWindowController.m_ file my method _performSearchOnEntry_ I'm doing checking on _self.currentView_ to see which view is active and then calling the _workOnMovieSearchTerm_ method on the active view. I really felt like I shouldn't have had to do that check and just called the method on _self.currentView_ since it should have pointed directly to the view that was active. Is there something here I am missing or is this the right approach?
