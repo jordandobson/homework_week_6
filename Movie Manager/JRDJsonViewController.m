@@ -99,7 +99,7 @@ NSString * const defaultTextOutput = @"\n\nEnter a movie title above for a JSON 
         id Json = [NSJSONSerialization JSONObjectWithData: dat options: 0 error: nil];
         // NSLog(@"%@", Json);
 
-        NSString *response = [@"\n" stringByAppendingFormat:@"%@\n", [JRDMovieParser stringFromResponse: Json]];
+        NSString *response = [@"\nJSON Results for: " stringByAppendingFormat:@"%@\n\n%@\n", [self.jsonRequest getSearchTerm],[JRDMovieParser stringFromResponse: Json]];
         self.jsonOutput.string = response;
 
         // Stop Spinner

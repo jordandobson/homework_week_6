@@ -20,9 +20,23 @@
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
             <value key="minSize" type="size" width="300" height="400"/>
             <value key="maxSize" type="size" width="800" height="1100"/>
-            <view key="contentView" id="se5-gp-TjO">
+            <view key="contentView" wantsLayer="YES" id="se5-gp-TjO">
                 <rect key="frame" x="0.0" y="0.0" width="300" height="560"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <animations>
+                    <caTransition key="subviews">
+                        <mutableData key="keyedArchiveRepresentation">
+YnBsaXN0MDDUAQIDBAUGKitYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKsHCBMU
+FRYdHgsfJVUkbnVsbNUJCgsMDQ4PEBESViRjbGFzc11zdGFydFByb2dyZXNzVHR5cGVXc3VidHlwZV8Q
+El9fQ0FDb2RpbmdDb250ZW50c4AKgAKABIADgAUiPwAAAVpmcm9tQm90dG9tVm1vdmVJbtIXCRgcWk5T
+Lm9iamVjdHOjGRobgAaAB4AIgAldc3RhcnRQcm9ncmVzc1dzdWJ0eXBl0iAhIiNaJGNsYXNzbmFtZVgk
+Y2xhc3Nlc1dOU0FycmF5oiIkWE5TT2JqZWN00iAhJidcQ0FUcmFuc2l0aW9uoygpJFxDQVRyYW5zaXRp
+b25bQ0FBbmltYXRpb25fEA9OU0tleWVkQXJjaGl2ZXLRLC1Ucm9vdIABAAgAEQAaACMALQAyADcAQwBJ
+AFQAWwBpAG4AdgCLAI0AjwCRAJMAlQCaAKUArACxALwAwADCAMQAxgDIANYA3gDjAO4A9wD/AQIBCwEQ
+AR0BIQEuAToBTAFPAVQAAAAAAAACAQAAAAAAAAAuAAAAAAAAAAAAAAAAAAABVg
+</mutableData>
+                    </caTransition>
+                </animations>
             </view>
             <toolbar key="toolbar" implicitIdentifier="A8CF447A-85C1-4015-BEA4-5A3C626E9F6E" autosavesConfiguration="NO" allowsUserCustomization="NO" displayMode="iconOnly" sizeMode="regular" id="444-7e-wHA">
                 <allowedToolbarItems>

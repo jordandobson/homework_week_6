@@ -31,6 +31,13 @@ static NSString *requestKey = @"";
     return [self startSynchronousDownload: self];
 }
 
+-(NSString *)getSearchTerm
+{
+
+    NSString *unescaped = [self.searchTerm stringByReplacingOccurrencesOfString:@"%20" withString:@" "];
+    return unescaped;
+}
+
 -(void)updateSearchTerm:(NSString *)term {
     // Do some URL Escaping
     self.searchTerm = term.copy;

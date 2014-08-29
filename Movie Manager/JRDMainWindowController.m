@@ -11,6 +11,8 @@
 #import "JRDListViewController.h"
 #import "JRDJSONRequest.h"
 
+@import QuartzCore;
+
 @class JRDJsonViewController;
 @class JRDListViewController;
 
@@ -55,6 +57,8 @@
 
     // Put focus on the Search Field
     [self.searchFieldInput selectText: self];
+
+    [self.window.contentView setWantsLayer:YES];
 }
 
 -(void)displayViewController:(NSViewController *)vc {
@@ -64,7 +68,7 @@
     NSArray *subviews = [self.window.contentView subviews];
 
     if(subviews.count == 1){
-        [self.window.contentView replaceSubview: subviews[0] with: vc.view ];
+        [[self.window.contentView animator] replaceSubview: subviews[0] with: vc.view ];
     }else{
         [self.window.contentView addSubview: vc.view];
     }

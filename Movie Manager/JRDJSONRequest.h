@@ -11,6 +11,7 @@
 @interface JRDJSONRequest : NSObject <NSURLConnectionDataDelegate>
     +(instancetype)JSONDataWithQueryString:(NSString *)string;
     -(void)updateSearchTerm:(NSString *)term;
+    -(id)getSearchTerm;
     -(id)sendRequest;
     -(id)apiURL;
 @end
