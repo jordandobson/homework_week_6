@@ -18,7 +18,7 @@
 @implementation JRDJSONRequest
 
 static NSString *requestUrl = @"http://api.rottentomatoes.com/api/public/v1.0/movies.json?";
-static NSString *requestKey = @"8pmwpbz6jmxepyrmgkryr46u";
+static NSString *requestKey = @"";
 
 +(instancetype)JSONDataWithQueryString:(NSString *)string {
     JRDJSONRequest *rq = [JRDJSONRequest new];
