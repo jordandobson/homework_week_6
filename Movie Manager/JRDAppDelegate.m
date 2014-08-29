@@ -17,6 +17,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    NSLog(@"YOU NEED A ROTTEN TOMATOES API KEY in JRDJSONRequest.m file");
     self.mainWindowController = [JRDMainWindowController new];
     [self.mainWindowController showWindow:self];
 }
