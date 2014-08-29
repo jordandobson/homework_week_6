@@ -7,12 +7,28 @@
 //
 
 #import "JRDAppDelegate.h"
+#import "JRDMainWindowController.h"
+
+@interface JRDAppDelegate ()
+@property (strong, nonatomic) JRDMainWindowController *mainWindowController;
+@end
 
 @implementation JRDAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    self.mainWindowController = [JRDMainWindowController new];
+    [self.mainWindowController showWindow:self];
+}
+- (IBAction)searchJurrasicPark:(id)sender {
+    [self.mainWindowController populateSearch:@"Jurrasic Park"];
+}
+
+- (IBAction)searchTempleOfDoom:(id)sender {
+    [self.mainWindowController populateSearch:@"Temple Of Doom"];
+}
+- (IBAction)searchInception:(id)sender {
+    [self.mainWindowController populateSearch:@"Goon"];
 }
 
 @end

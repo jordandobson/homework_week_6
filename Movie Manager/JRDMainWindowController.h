@@ -1,5 +1,5 @@
 //
-//  JRDAppDelegate.h
+//  JRDMainWindowController.h
 //  Movie Manager
 //
 //  Created by Jordan Dobson on 8/23/14.
@@ -8,8 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface JRDAppDelegate : NSObject <NSApplicationDelegate>
-
-//@property (assign) IBOutlet NSWindow *window;
-
+@interface JRDMainWindowController : NSWindowController
+-(void)populateSearch:(NSString*)searchString;
 @end

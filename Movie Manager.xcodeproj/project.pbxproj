@@ -18,6 +18,17 @@
 		178E153219A9B666007B800D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178E151119A9B666007B800D /* Cocoa.framework */; };
 		178E153A19A9B666007B800D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 178E153819A9B666007B800D /* InfoPlist.strings */; };
 		178E153C19A9B666007B800D /* Movie_ManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 178E153B19A9B666007B800D /* Movie_ManagerTests.m */; };
+		178E155219A9B741007B800D /* JRDMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178E155019A9B741007B800D /* JRDMainWindowController.m */; };
+		178E155319A9B741007B800D /* JRDMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178E155119A9B741007B800D /* JRDMainWindowController.xib */; };
+		178E155519A9B8F4007B800D /* json.png in Resources */ = {isa = PBXBuildFile; fileRef = 178E155419A9B8F4007B800D /* json.png */; };
+		178E155719A9BA7B007B800D /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 178E155619A9BA7B007B800D /* camera.png */; };
+		178E155B19A9BE9D007B800D /* JRDJsonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178E155919A9BE9D007B800D /* JRDJsonViewController.m */; };
+		178E155C19A9BE9D007B800D /* JRDJsonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178E155A19A9BE9D007B800D /* JRDJsonViewController.xib */; };
+		178E156519A9C32B007B800D /* JRDListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 178E156319A9C32B007B800D /* JRDListViewController.m */; };
+		178E156619A9C32B007B800D /* JRDListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178E156419A9C32B007B800D /* JRDListViewController.xib */; };
+		178E156C19A9E5B8007B800D /* JRDJSONRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 178E156B19A9E5B8007B800D /* JRDJSONRequest.m */; };
+		178E157019A9F292007B800D /* JRDMovieParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 178E156F19A9F292007B800D /* JRDMovieParser.m */; };
+		178E15B419AC6756007B800D /* JRDMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 178E15B319AC6756007B800D /* JRDMovie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +61,23 @@
 		178E153719A9B666007B800D /* Movie ManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Movie ManagerTests-Info.plist"; sourceTree = "<group>"; };
 		178E153919A9B666007B800D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		178E153B19A9B666007B800D /* Movie_ManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movie_ManagerTests.m; sourceTree = "<group>"; };
+		178E154F19A9B741007B800D /* JRDMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRDMainWindowController.h; sourceTree = "<group>"; };
+		178E155019A9B741007B800D /* JRDMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRDMainWindowController.m; sourceTree = "<group>"; };
+		178E155119A9B741007B800D /* JRDMainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JRDMainWindowController.xib; sourceTree = "<group>"; };
+		178E155419A9B8F4007B800D /* json.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = json.png; sourceTree = "<group>"; };
+		178E155619A9BA7B007B800D /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		178E155819A9BE9D007B800D /* JRDJsonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRDJsonViewController.h; sourceTree = "<group>"; };
+		178E155919A9BE9D007B800D /* JRDJsonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRDJsonViewController.m; sourceTree = "<group>"; };
+		178E155A19A9BE9D007B800D /* JRDJsonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JRDJsonViewController.xib; sourceTree = "<group>"; };
+		178E156219A9C32B007B800D /* JRDListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRDListViewController.h; sourceTree = "<group>"; };
+		178E156319A9C32B007B800D /* JRDListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRDListViewController.m; sourceTree = "<group>"; };
+		178E156419A9C32B007B800D /* JRDListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JRDListViewController.xib; sourceTree = "<group>"; };
+		178E156A19A9E5B8007B800D /* JRDJSONRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRDJSONRequest.h; sourceTree = "<group>"; };
+		178E156B19A9E5B8007B800D /* JRDJSONRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRDJSONRequest.m; sourceTree = "<group>"; };
+		178E156E19A9F292007B800D /* JRDMovieParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRDMovieParser.h; sourceTree = "<group>"; };
+		178E156F19A9F292007B800D /* JRDMovieParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRDMovieParser.m; sourceTree = "<group>"; };
+		178E15B219AC6756007B800D /* JRDMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRDMovie.h; sourceTree = "<group>"; };
+		178E15B319AC6756007B800D /* JRDMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRDMovie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +143,12 @@
 		178E151719A9B666007B800D /* Movie Manager */ = {
 			isa = PBXGroup;
 			children = (
-				178E152319A9B666007B800D /* JRDAppDelegate.h */,
-				178E152419A9B666007B800D /* JRDAppDelegate.m */,
-				178E152619A9B666007B800D /* MainMenu.xib */,
-				178E152919A9B666007B800D /* Images.xcassets */,
-				178E151819A9B666007B800D /* Supporting Files */,
+				178E154919A9B698007B800D /* Base */,
+				178E154819A9B687007B800D /* Window Controller */,
+				178E155D19A9BEA0007B800D /* View Controllers */,
+				178E157119A9F296007B800D /* Parsing */,
+				178E156D19A9E611007B800D /* API */,
+				178E15B519AC7891007B800D /* Model */,
 			);
 			path = "Movie Manager";
 			sourceTree = "<group>";
@@ -152,6 +181,70 @@
 				178E153819A9B666007B800D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		178E154819A9B687007B800D /* Window Controller */ = {
+			isa = PBXGroup;
+			children = (
+				178E154F19A9B741007B800D /* JRDMainWindowController.h */,
+				178E155019A9B741007B800D /* JRDMainWindowController.m */,
+				178E155119A9B741007B800D /* JRDMainWindowController.xib */,
+			);
+			name = "Window Controller";
+			sourceTree = "<group>";
+		};
+		178E154919A9B698007B800D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				178E152319A9B666007B800D /* JRDAppDelegate.h */,
+				178E152419A9B666007B800D /* JRDAppDelegate.m */,
+				178E155419A9B8F4007B800D /* json.png */,
+				178E155619A9BA7B007B800D /* camera.png */,
+				178E152619A9B666007B800D /* MainMenu.xib */,
+				178E152919A9B666007B800D /* Images.xcassets */,
+				178E151819A9B666007B800D /* Supporting Files */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		178E155D19A9BEA0007B800D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				178E155819A9BE9D007B800D /* JRDJsonViewController.h */,
+				178E155919A9BE9D007B800D /* JRDJsonViewController.m */,
+				178E155A19A9BE9D007B800D /* JRDJsonViewController.xib */,
+				178E156219A9C32B007B800D /* JRDListViewController.h */,
+				178E156319A9C32B007B800D /* JRDListViewController.m */,
+				178E156419A9C32B007B800D /* JRDListViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		178E156D19A9E611007B800D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				178E156A19A9E5B8007B800D /* JRDJSONRequest.h */,
+				178E156B19A9E5B8007B800D /* JRDJSONRequest.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		178E157119A9F296007B800D /* Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				178E156E19A9F292007B800D /* JRDMovieParser.h */,
+				178E156F19A9F292007B800D /* JRDMovieParser.m */,
+			);
+			name = Parsing;
+			sourceTree = "<group>";
+		};
+		178E15B519AC7891007B800D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				178E15B219AC6756007B800D /* JRDMovie.h */,
+				178E15B319AC6756007B800D /* JRDMovie.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +325,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				178E151C19A9B666007B800D /* InfoPlist.strings in Resources */,
+				178E155719A9BA7B007B800D /* camera.png in Resources */,
+				178E156619A9C32B007B800D /* JRDListViewController.xib in Resources */,
+				178E155319A9B741007B800D /* JRDMainWindowController.xib in Resources */,
+				178E155C19A9BE9D007B800D /* JRDJsonViewController.xib in Resources */,
 				178E152A19A9B666007B800D /* Images.xcassets in Resources */,
 				178E152219A9B666007B800D /* Credits.rtf in Resources */,
 				178E152819A9B666007B800D /* MainMenu.xib in Resources */,
+				178E155519A9B8F4007B800D /* json.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +352,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				178E151E19A9B666007B800D /* main.m in Sources */,
+				178E155219A9B741007B800D /* JRDMainWindowController.m in Sources */,
+				178E15B419AC6756007B800D /* JRDMovie.m in Sources */,
+				178E157019A9F292007B800D /* JRDMovieParser.m in Sources */,
 				178E152519A9B666007B800D /* JRDAppDelegate.m in Sources */,
+				178E155B19A9BE9D007B800D /* JRDJsonViewController.m in Sources */,
+				178E156C19A9E5B8007B800D /* JRDJSONRequest.m in Sources */,
+				178E156519A9C32B007B800D /* JRDListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
