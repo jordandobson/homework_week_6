@@ -14,6 +14,8 @@ The other issue I had was remembering to setup the table with File's Owner. That
 
 Lastly, I think adding animations was super simple but I think I could do a bit better with more time to control the responsiveness of the UI in regards to how it updates and is presented when it's making requests for data.
 
+<hr/>
+
 **What resources did you find helpful?**
 
 I used Marty's text exploration examples to help me with the JSON formatting, coloring and styling.
@@ -24,6 +26,7 @@ I used some code examples in my past projects as well to handle toolbars and tab
 
 For Pretty Print formatting the JSON text I found a great example on stackOverflow: http://stackoverflow.com/a/9020923/3920924
 
+<hr/>
 
 **One well-formed question or observation about the app, technologies used, or related topics.**
 
